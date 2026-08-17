@@ -8,7 +8,7 @@ authors:
   - family-names: "Kilim"
     given-names: "Oğuzhan"
 version: "1.0.0"
-repository-code: "https://github.com/REPLACE_WITH_OWNER/AirGuard-6LoWPAN"
+repository-code: "https://github.com/trashboxtr/AirGuard-6LoWPAN"
 abstract: "Reproducibility package for cause-aware cross-layer diagnosis of cyberattacks and benign radio impairments in RPL-based IPv6/6LoWPAN networks."
 keywords:
   - RPL

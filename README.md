@@ -129,6 +129,12 @@ See `analysis/METHOD_NOTES.md` and `results/analysis/`.
 
 The complete 70-run raw Cooja logs are intentionally not duplicated in the GitHub repository. They should be archived as a versioned Zenodo dataset with a persistent DOI. `data/metadata/run_manifest_70runs.csv` provides the final run inventory and hashes.
 
+## Repository
+
+Source code and reproducibility materials are maintained at:
+
+`https://github.com/trashboxtr/AirGuard-6LoWPAN`
+
 ## Authors
 
 - Enes Açıkgözoğlu
@@ -140,4 +146,4 @@ A final article citation and Zenodo DOI will be added after publication/reposito
 
 ## License
 
-A repository license should be selected before public release. No license is asserted by this preparation package.
+A repository license will be finalized before public release. Third-party components retain their original licenses and notices.
