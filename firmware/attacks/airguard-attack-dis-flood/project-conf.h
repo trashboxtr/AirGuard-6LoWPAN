@@ -1,0 +1,14 @@
+#ifndef PROJECT_CONF_H_
+#define PROJECT_CONF_H_
+
+#define ENERGEST_CONF_ON 1
+#define LINK_STATS_CONF_PACKET_COUNTERS 1
+
+/* Controlled Cooja-only attack configuration. */
+#define AIRGUARD_ATTACK_MODE 2
+#define AIRGUARD_ATTACK_NODE_ID 8
+#define AIRGUARD_ATTACK_START_S 180
+#define AIRGUARD_ATTACK_STOP_S 540
+#define AIRGUARD_ATTACK_INTERVAL_MS 500
+
+#endif /* PROJECT_CONF_H_ */

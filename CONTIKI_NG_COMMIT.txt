@@ -1,0 +1,2 @@
+Contiki-NG commit used for the final experiments:
+0ff13c5c6ffbf64959798fc490666afd0fc93090

@@ -1,0 +1,44 @@
+feature,layer,definition,window,model_input
+reachable_fraction,application_qos,Fraction of client nodes marked reachable in the 10-s network window.,10 s non-overlapping,yes
+app_tx_delta,application_qos,Sum of client application-layer transmission counter increments in the window.,10 s non-overlapping,yes
+app_rx_delta,application_qos,Sum of client application-layer reception counter increments in the window.,10 s non-overlapping,yes
+app_timeouts_delta,application_qos,Sum of client application timeout counter increments in the window.,10 s non-overlapping,yes
+route_miss_delta,application_qos,Sum of client route-miss counter increments in the window.,10 s non-overlapping,yes
+root_server_rx_delta,application_qos,Root/server application receive-counter increment in the window.,10 s non-overlapping,yes
+root_server_tx_delta,application_qos,Root/server application transmit-counter increment in the window.,10 s non-overlapping,yes
+transaction_count,application_qos,Number of reconstructed application transactions in the window.,10 s non-overlapping,yes
+transaction_success_count,application_qos,Number of reconstructed transactions completed successfully in the window.,10 s non-overlapping,yes
+uplink_success_count,application_qos,Number of reconstructed transactions with successful uplink delivery.,10 s non-overlapping,yes
+app_delivery_ratio,application_qos,transaction_success_count divided by transaction_count.,10 s non-overlapping,yes
+uplink_delivery_ratio,application_qos,uplink_success_count divided by transaction_count.,10 s non-overlapping,yes
+mean_rtt_ms,application_qos,Mean reconstructed application round-trip time in milliseconds.,10 s non-overlapping,yes
+median_rtt_ms,application_qos,Median reconstructed application round-trip time in milliseconds.,10 s non-overlapping,yes
+p95_rtt_ms,application_qos,95th percentile of reconstructed application round-trip time in milliseconds.,10 s non-overlapping,yes
+max_rtt_ms,application_qos,Maximum reconstructed application round-trip time in milliseconds.,10 s non-overlapping,yes
+std_rtt_ms,application_qos,Standard deviation of reconstructed application round-trip time in milliseconds.,10 s non-overlapping,yes
+mean_etx_x100,routing,"Mean client ETX, stored as ETX multiplied by 100, over reachable clients.",10 s non-overlapping,yes
+std_etx_x100,routing,Sample standard deviation of client ETX×100 over reachable clients.,10 s non-overlapping,yes
+p95_etx_x100,routing,95th percentile of client ETX×100 over reachable clients.,10 s non-overlapping,yes
+mean_rank,routing,Mean valid RPL rank across reachable client nodes.,10 s non-overlapping,yes
+mean_neighbors,routing,Mean neighbor count across client nodes.,10 s non-overlapping,yes
+mean_rssi,routing,Mean RSSI across reachable client links represented in the window.,10 s non-overlapping,yes
+parent_changes_delta,routing,Sum of preferred-parent change increments across client nodes.,10 s non-overlapping,yes
+root_mean_etx_x100,routing,Root/server-side mean ETX×100 reported for the window.,10 s non-overlapping,yes
+root_mean_rssi,routing,Root/server-side mean RSSI reported for the window.,10 s non-overlapping,yes
+queue_drops_delta,mac,Sum of client queue-drop counter increments in the window.,10 s non-overlapping,yes
+client_mac_tx_attempts_delta,mac,Sum of valid client MAC transmission-attempt increments; parent-change/reset intervals are invalidated.,10 s non-overlapping,yes
+client_mac_acked_delta,mac,Sum of valid client MAC acknowledged-transmission increments.,10 s non-overlapping,yes
+client_mac_rx_delta,mac,Sum of valid client MAC reception-counter increments.,10 s non-overlapping,yes
+client_mac_ack_ratio,mac,client_mac_acked_delta divided by client_mac_tx_attempts_delta when attempts are positive.,10 s non-overlapping,yes
+client_mac_valid_nodes,mac,Number of clients contributing a valid MAC transmission-attempt delta.,10 s non-overlapping,yes
+client_mac_reset_nodes,mac,Number of clients flagged with a MAC counter reset/change invalidation in the window.,10 s non-overlapping,yes
+root_mac_tx_attempts_delta,mac,Root MAC transmission-attempt counter increment.,10 s non-overlapping,yes
+root_mac_acked_delta,mac,Root MAC acknowledged-transmission counter increment.,10 s non-overlapping,yes
+root_mac_rx_delta,mac,Root MAC reception-counter increment.,10 s non-overlapping,yes
+root_mac_ack_ratio,mac,root_mac_acked_delta divided by root_mac_tx_attempts_delta when attempts are positive.,10 s non-overlapping,yes
+client_energest_tx_delta,radio,"Sum of client Energest transmit-activity counter increments; interpreted as a radio-activity proxy, not joules.",10 s non-overlapping,yes
+client_energest_listen_delta,radio,"Sum of client Energest listen-activity counter increments; interpreted as a radio-activity proxy, not joules.",10 s non-overlapping,yes
+client_energest_total_delta,radio,Sum of client Energest total-activity counter increments used in radio activity ratios.,10 s non-overlapping,yes
+client_radio_tx_fraction,radio,Client Energest TX increment divided by client Energest total increment.,10 s non-overlapping,yes
+root_energest_tx_delta,radio,"Root Energest transmit-activity counter increment; radio-activity proxy, not joules.",10 s non-overlapping,yes
+root_radio_tx_fraction,radio,Root Energest TX increment divided by root Energest total increment.,10 s non-overlapping,yes

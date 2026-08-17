@@ -1,0 +1,16 @@
+AirGuard-6LoWPAN — Recommended publication figure captions
+
+Figure 1. Layer-wise ablation performance.
+Macro-F1 scores obtained using application/QoS, routing, MAC, radio, and complete cross-layer feature sets under seed-separated five-fold cross-validation. Application/QoS features alone were insufficient, whereas the strongest representation depended on the diagnostic task.
+
+Figure 2. Out-of-fold attack probability over time.
+Mean out-of-fold attack probabilities for UDP Flood, DIS Flood, and DIO Flood across paired seeds. The vertical markers denote the attack start and stop times.
+
+Figure 3. Early-detection robustness.
+Mean attack-detection latency under one-window and two-window persistence rules and decision thresholds of 0.50 and 0.70. Every attack run was detected under all evaluated rules, with no pre-attack false-positive windows.
+
+Figure 4. Seven-class pooled out-of-fold confusion matrix.
+Predictions from the Extra Trees model using the complete cross-layer feature set. Errors were confined to adjacent impairment levels and the two RPL control-plane attack classes.
+
+Figure 5a–e. Task-specific out-of-fold global SHAP importance.
+Mean absolute Tree SHAP attributions calculated exclusively on held-out seeds for (a) binary attack detection, (b) cause-family classification, (c) seven-class classification, (d) attack-subtype classification, and (e) impairment-severity classification.
