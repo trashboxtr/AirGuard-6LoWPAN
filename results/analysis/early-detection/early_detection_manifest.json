@@ -1,0 +1,11 @@
+{
+  "binary_model_dir": "experiments/ml/results-ablation/models/binary_attack/mac/extra_trees",
+  "subtype_model_dir": "experiments/ml/results-ablation/models/attack_subtype/mac/extra_trees",
+  "threshold": 0.5,
+  "consecutive_windows": 2,
+  "window_size_s": 10,
+  "attack_start_s": 180,
+  "attack_stop_s": 540,
+  "decision_timestamp": "window_end_s",
+  "evaluation": "out-of-fold by paired seed"
+}

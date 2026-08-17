@@ -1,0 +1,4 @@
+scenario,runs,subtype_detected_runs,median_subtype_latency_s,mean_subtype_latency_s,mean_active_correct_subtype_fraction
+DIO_Flood,10,10,20.0,20.0,0.9916666666666666
+DIS_Flood,10,10,20.0,20.0,0.9916666666666666
+UDP_Flood,10,10,20.0,20.0,1.0

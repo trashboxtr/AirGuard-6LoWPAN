@@ -1,0 +1,54 @@
+{
+  "method": "Tree SHAP",
+  "evaluation": "out-of-fold by paired seed",
+  "max_samples_per_fold": 200,
+  "random_state": 42,
+  "configurations": [
+    {
+      "task": "binary_attack",
+      "feature_set": "mac",
+      "model": "extra_trees",
+      "result_dir": "experiments/ml/results-ablation",
+      "target": "binary_label",
+      "filter": null
+    },
+    {
+      "task": "cause_family",
+      "feature_set": "all",
+      "model": "random_forest",
+      "result_dir": "experiments/ml/results",
+      "target": "cause_family",
+      "filter": null
+    },
+    {
+      "task": "seven_class",
+      "feature_set": "all",
+      "model": "extra_trees",
+      "result_dir": "experiments/ml/results",
+      "target": "cause_label",
+      "filter": null
+    },
+    {
+      "task": "attack_subtype",
+      "feature_set": "mac",
+      "model": "extra_trees",
+      "result_dir": "experiments/ml/results-ablation",
+      "target": "attack_subtype",
+      "filter": [
+        "binary_label",
+        "attack"
+      ]
+    },
+    {
+      "task": "impairment_severity",
+      "feature_set": "routing",
+      "model": "extra_trees",
+      "result_dir": "experiments/ml/results-impairment-ablation",
+      "target": "cause_label",
+      "filter": [
+        "binary_label",
+        "benign"
+      ]
+    }
+  ]
+}

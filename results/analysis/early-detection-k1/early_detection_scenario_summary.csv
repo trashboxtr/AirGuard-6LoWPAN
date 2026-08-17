@@ -1,0 +1,4 @@
+scenario,runs,detected_runs,median_latency_s,mean_latency_s,p25_latency_s,p75_latency_s,detected_by_10s,detected_by_20s,detected_by_30s,detected_by_60s,mean_active_positive_fraction,pre_attack_false_positive_windows
+DIO_Flood,10,10,10.0,11.0,10.0,10.0,9,10,10,10,0.9972222222222221,0
+DIS_Flood,10,10,10.0,10.0,10.0,10.0,10,10,10,10,1.0,0
+UDP_Flood,10,10,10.0,10.0,10.0,10.0,10,10,10,10,1.0,0

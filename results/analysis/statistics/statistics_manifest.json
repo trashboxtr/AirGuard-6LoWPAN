@@ -1,0 +1,20 @@
+{
+  "bootstrap_iterations": 5000,
+  "random_state": 42,
+  "cluster_unit": "seed",
+  "result_dirs": [
+    "experiments/ml/results",
+    "experiments/ml/results-ablation",
+    "experiments/ml/results-impairment",
+    "experiments/ml/results-impairment-ablation"
+  ],
+  "prediction_rows": 66640,
+  "tasks": [
+    "attack_subtype",
+    "binary_attack",
+    "cause_family",
+    "impairment_severity",
+    "seven_class"
+  ],
+  "seed_count": 10
+}

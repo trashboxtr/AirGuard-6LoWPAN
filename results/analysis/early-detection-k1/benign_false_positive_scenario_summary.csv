@@ -1,0 +1,5 @@
+scenario,runs,mean_false_positive_rate,sd_false_positive_rate,total_false_positive_windows,total_windows,mean_max_attack_probability,pooled_false_positive_rate
+Clean,10,0.0,0.0,0,360,0.1658,0.0
+RX60,10,0.0,0.0,0,360,0.02,0.0
+RX75,10,0.0,0.0,0,360,0.029599999999999998,0.0
+RX90,10,0.0,0.0,0,360,0.1512,0.0
