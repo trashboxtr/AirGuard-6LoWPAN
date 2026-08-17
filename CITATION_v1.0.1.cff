@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use AirGuard-6LoWPAN, please cite the associated article and this software release."
+title: "AirGuard-6LoWPAN"
+type: software
+authors:
+  - family-names: "Açıkgözoğlu"
+    given-names: "Enes"
+  - family-names: "Kilim"
+    given-names: "Oğuzhan"
+version: "1.0.1"
+date-released: "2026-08-17"
+repository-code: "https://github.com/trashboxtr/AirGuard-6LoWPAN"
+abstract: "Reproducibility package for cause-aware cross-layer diagnosis of cyberattacks and benign radio impairments in RPL-based IPv6/6LoWPAN networks."
+keywords:
+  - RPL
+  - 6LoWPAN
+  - IoT security
+  - intrusion detection
+  - cross-layer telemetry
+  - radio impairment
+  - explainable AI
